@@ -1,0 +1,32 @@
+Planning Benchmark open-split task data — Evaluation Data License
+
+The task data in this directory (planning-benchmark-v2.jsonl,
+planning-benchmark-v1.jsonl) is licensed free of charge for evaluation,
+benchmarking, regression testing, and research, including redistribution of
+unmodified copies, subject to:
+
+1. ATTRIBUTION. Public results or redistributions must credit
+   "WealthSchema Planning Benchmark (wealthschema.com/benchmark)".
+
+2. NO TRAINING USE. The tasks and answer keys may NOT be used to train,
+   fine-tune, or otherwise adjust the parameters of any model, nor be
+   included in any training corpus or dataset compilation intended for
+   training. Every record carries training_use_permitted: false; this flag
+   may not be removed or altered in redistributed copies. Training on
+   evaluation data destroys its evaluative value for every party whose
+   results are compared against it.
+
+3. INTEGRITY. Task text and answer keys may not be altered in copies
+   presented as this benchmark. Derived works (translations, subsets) must
+   be clearly labeled as modified and carry this license.
+
+THE DATA IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. All scenarios
+are synthetic; regulatory figures are cited to primary government documents
+as of their stated tax-year vintage and are not tax, legal, or financial
+advice.
+
+The benchmark harness in the rest of this repository is licensed separately
+under Apache-2.0 (see /LICENSE). The commercial task families (adversarial,
+decision-recall) and the held-out reserve are proprietary and are NOT
+covered by this license — see https://www.wealthschema.com/ai-eval-sets and
+the long-form terms at https://www.wealthschema.com/license.

@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use the Planning Benchmark in your research, please cite it as below."
+title: "Planning Benchmark: measuring stale regulatory figures in AI financial-advice systems"
+type: dataset
+authors:
+  - name: "WealthSchema (Capstera)"
+    website: "https://www.wealthschema.com"
+repository-code: "https://github.com/decisionsynth/planning-benchmark"
+url: "https://www.wealthschema.com/benchmark"
+license: Apache-2.0
+version: 2.0.0
+date-released: 2026-07-31
+keywords:
+  - llm evaluation
+  - benchmark
+  - financial planning
+  - tax figures
+  - stale figure rate
+  - synthetic data
+abstract: >-
+  An open evaluation for AI financial-advice systems measuring figure
+  currency: 50 open-split tasks (rule-grounding and threshold/cliff) whose
+  answer keys cite primary-source-verified U.S. regulatory figures and
+  enumerate the wrong-but-plausible stale values (forbidden figures) with
+  reason codes, enabling fully mechanical scoring of the Stale Figure Rate
+  alongside pass@1 and pass^k. Accompanied by a dependency-free scorer, a
+  pre-registered pilot of record (four systems from three labs, 29% of
+  figure-bearing attempts citing a stale or fabricated figure), and a
+  contrast run showing zero stale figures when a live cited-figures feed is
+  supplied in context. Adversarial and decision-recall families plus a
+  held-out reserve are withheld to keep the maintainer-run scoreboard
+  re-runnable.

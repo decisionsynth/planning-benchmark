@@ -1,0 +1,18 @@
+{
+  "name": "planning-benchmark",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Planning Benchmark — measuring stale regulatory figures in AI financial-advice systems. Open split + mechanical scorer (Stale Figure Rate).",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/decisionsynth/planning-benchmark"
+  },
+  "scripts": {
+    "score": "tsx bench/score.ts data/planning-benchmark-v2.jsonl answers.json --k 3 --out scoreboard.json"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
