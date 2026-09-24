@@ -93,4 +93,4 @@ corpus, from the same team.
 
 Cite via [`CITATION.cff`](CITATION.cff). Dataset mirror:
 <https://huggingface.co/datasets/wealthschema/planning-benchmark> ·
-Questions: support@capstera.com
+Questions: support@wealthschema.com
